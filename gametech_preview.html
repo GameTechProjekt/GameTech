@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GameTech - Gamer Tech és Játékok</title>
+    <style>
+        body {
+            background-color: #000000;
+            color: #00ff00;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #111111;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+        .logo {
+            font-size: 48px;
+            font-weight: bold;
+            color: #00ff00;
+            position: relative;
+            display: inline-block;
+        }
+        .logo .G {
+            color: #ff0000;
+            font-family: 'Courier New', Courier, monospace;
+            position: relative;
+        }
+        .logo .G::before {
+            content: "";
+            position: absolute;
+            left: -20px;
+            top: 0;
+            width: 40px;
+            height: 40px;
+            border: 3px solid #ff0000;
+            border-radius: 50%;
+            border-left-color: transparent;
+            border-bottom-color: transparent;
+            animation: snake-move 2s linear infinite;
+        }
+        @keyframes snake-move {
+            0% { transform: rotate(0deg);}
+            100% { transform: rotate(360deg);}
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: #00ff00;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 600;
+            font-size: 18px;
+        }
+        nav a:hover {
+            color: #ff0000;
+        }
+        main {
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #ff0000;
+            border-bottom: 2px solid #00ff00;
+            padding-bottom: 5px;
+        }
+        article {
+            background-color: #111111;
+            padding: 15px;
+            border-radius: 8px;
+            color: #aaffaa;
+        }
+        footer {
+            background-color: #111111;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+            color: #666666;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo"><span class="G">G</span>T</div>
+        <nav>
+            <a href="#akcios-jatekok">Akciós játékok</a>
+            <a href="#olcso-tech">Olcsó tech</a>
+            <a href="#ingyenes-jatekok">Ingyenes játékok</a>
+            <a href="#app-ajanlo">App ajánló</a>
+            <a href="#kerdezz-ai">Kérdezz az AI-tól</a>
+        </nav>
+    </header>
+    <main>
+        <section id="akcios-jatekok">
+            <h2>Akciós PS4/PS5 játékok</h2>
+            <article>
+                <p>Itt találod a legfrissebb, kedvezményes árú játékokat PlayStation konzolokra.</p>
+                <ul>
+                    <li>God of War Ragnarok - 30% kedvezmény</li>
+                    <li>Horizon Forbidden West - 25% kedvezmény</li>
+                    <li>FIFA 25 - 20% kedvezmény</li>
+                </ul>
+            </article>
+        </section>
+        <section id="olcso-tech">
+            <h2>Olcsó tech kütyük</h2>
+            <article>
+                <p>Válogatás olcsó, mégis hasznos technológiai eszközökből és kiegészítőkből.</p>
+                <ul>
+                    <li>Bluetooth fülhallgató - 15 000 Ft</li>
+                    <li>Gaming egér RGB világítással - 8 000 Ft</li>
+                    <li>Powerbank 10 000 mAh - 7 500 Ft</li>
+                </ul>
+            </article>
+        </section>
+        <section id="ingyenes-jatekok">
+            <h2>Ingyenes és olcsó játékok</h2>
+            <article>
+                <p>Ingyenes vagy nagyon olcsó játékok, amiket érdemes kipróbálni.</p>
+                <ul>
+                    <li>Fortnite - ingyenes</li>
+                    <li>Rocket League - ingyenes</li>
+                    <li>Among Us - 1 000 Ft</li>
+                </ul>
+            </article>
+        </section>
+        <section id="app-ajanlo">
+            <h2>Hasznos app ajánlók</h2>
+            <article>
+                <p>Ajánlott appok játékosoknak és tech rajongóknak.</p>
+                <ul>
+                    <li>Discord - ingyenes kommunikációs platform</li>
+                    <li>Steam - játékplatform és közösség</li>
+                    <li>PS Remote Play - távoli játék konzolra</li>
+                </ul>
+            </article>
+        </section>
+        <section id="kerdezz-ai">
+            <h2>Kérdezz az AI-tól</h2>
+            <article>
+                <p>Itt kérdezhetsz tőlünk vagy az AI-tól játékokról, tech témákról vagy pénzkeresésről.</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        &copy; 2025 GameTech. Minden jog fenntartva.
+    </footer>
+</body>
+</html>
