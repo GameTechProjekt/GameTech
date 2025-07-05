@@ -1,0 +1,111 @@
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GameTech - Akciós játékok és tech</title>
+  <style>
+    /* Alap sötét téma stílus */
+    body {
+      margin: 0;
+      background-color: #121212;
+      color: #e0e0e0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    header {
+      background-color: #000;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 2px solid #39ff14; /* neon zöld */
+    }
+    .logo {
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: #ff2020; /* piros */
+      font-family: 'Courier New', Courier, monospace;
+      user-select: none;
+      position: relative;
+    }
+    .logo .g-snake {
+      color: #39ff14; /* kígyózöld */
+      font-style: italic;
+      transform: rotate(-10deg);
+      display: inline-block;
+      user-select: none;
+    }
+    nav a {
+      color: #e0e0e0;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #39ff14;
+    }
+    main {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 0 15px;
+    }
+    section {
+      margin-bottom: 30px;
+    }
+Use Control + Shift + m to toggle the tab key moving focus. Alternatively, use esc then tab to move to the next interactive e
